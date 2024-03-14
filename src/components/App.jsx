@@ -40,7 +40,6 @@ function App() {
         <ul>
           {items.map((todoItem) => (
             <ToDoItem 
-            
             text={todoItem}
             />
           ))}{" "}
